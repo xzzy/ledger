@@ -9,6 +9,8 @@ from django.utils import timezone
 
 from ledger.accounts.models import EmailUser
 
+# Example CSV is
+# first_name,last_name,email_address
 
 class Command(BaseCommand):
     help = 'Create EmailUser records from a CSV file with headers: first_name,last_name,email_address'
